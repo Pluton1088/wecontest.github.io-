@@ -1,0 +1,470 @@
+.line1{
+	width: 100%;
+	min-height: 548px;
+	position:absolute;
+	top:55px;
+	left:0px;
+}
+
+.line1 div{
+	width: 960px;
+	min-height: 548px;
+	margin:0px auto;
+
+}
+.svg-line1{
+  height: 100%;
+  min-height: 548px;
+  width: 100%;
+}
+
+ .svg-line1 path{
+    stroke: rgb(241,244,101);
+    stroke-width:4;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 3s linear forwards;
+    animation-delay: 2s;
+  }
+
+
+@keyframes path {
+  0%{
+    opacity:0;
+  }
+  35%{
+    opacity:1;
+  }
+  95%{
+    opacity:1;
+  }
+  100%{
+    opacity:1;
+    stroke-dashoffset: 0;
+  }
+}
+
+
+.line2{
+	width: 100%;
+	min-height: 272px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.line2 div{
+	width: 960px;
+	min-height: 492px;
+	margin:0px auto;
+
+}
+#svg-line2{
+display: none;
+  height: 100%;
+  min-height: 492px;
+  width: 100%;
+}
+
+#svg-line2  path{
+    stroke: rgb(157,236,91);
+    stroke-width:4;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 2s linear forwards;
+    animation-delay: 0s;
+  }
+
+
+
+.line3{
+	width: 100%;
+	min-height: 492px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.line3 div{
+	width: 960px;
+	min-height: 492px;
+	margin:0px auto;
+
+}
+#svg-line3{
+  display: none;
+  height: 100%;
+  min-height: 492px;
+  width: 100%;
+}
+
+#svg-line3  path{
+    stroke: rgb(80,196,183);
+    stroke-width:4;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 2s linear forwards;
+    animation-delay: 0s;
+  }
+
+
+
+.line4{
+  width: 100%;
+  min-height: 492px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.line4 div{
+  width: 960px;
+  min-height: 492px;
+  margin:0px auto;
+
+}
+#svg-line4{
+  display: none;
+  height: 100%;
+  min-height: 492px;
+  width: 100%;
+}
+
+#svg-line4  path{
+    stroke: rgb(97,132,216);
+    stroke-width:4;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 2s linear forwards;
+    animation-delay: 0s;
+  }
+
+.line5{
+  width: 100%;
+  min-height: 492px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.line5 div{
+  width: 960px;
+  min-height: 492px;
+  margin:0px auto;
+
+}
+#svg-line5{
+  display: none;
+  height: 100%;
+  min-height: 492px;
+  width: 100%;
+}
+
+#svg-line5  path{
+    stroke: rgb(83,58,113);
+    stroke-width:4;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 2s linear forwards;
+    animation-delay: 0s;
+  }
+
+
+  .line6{
+  width: 100%;
+  min-height: 292px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.line6 div{
+  width: 960px;
+  min-height: 422px;
+  margin:0px auto;
+
+}
+#svg-line6{
+  display: none;
+  height: 100%;
+  min-height: 292px;
+  width: 100%;
+}
+
+#svg-line6  path{
+    stroke: rgb(83,58,113);
+    stroke-width:7;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 3s linear forwards;
+    animation-delay: 0s;
+  }
+
+   .line7{
+  width: 100%;
+  min-height: 292px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.line7 div{
+  width: 960px;
+  min-height: 422px;
+  margin:0px auto;
+
+}
+#svg-line7{
+  display: none;
+  height: 100%;
+  min-height: 292px;
+  width: 100%;
+}
+
+#svg-line7  path{
+    stroke: rgb(83,58,113);
+    stroke-width:7;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 3s linear forwards;
+    animation-delay: 0s;
+  }
+
+   .line8{
+  width: 100%;
+  min-height: 292px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.line8 div{
+  width: 960px;
+  min-height: 422px;
+  margin:0px auto;
+
+}
+#svg-line8{
+  display: none;
+  height: 100%;
+  min-height: 292px;
+  width: 100%;
+}
+
+#svg-line8  path{
+    stroke: rgb(83,58,113);
+    stroke-width:7;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 3s linear forwards;
+    animation-delay: 0s;
+  }
+
+   .line9{
+  width: 100%;
+  min-height: 292px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.line9 div{
+  width: 960px;
+  min-height: 422px;
+  margin:0px auto;
+
+}
+#svg-line9{
+  display: none;
+  height: 100%;
+  min-height: 292px;
+  width: 100%;
+}
+
+#svg-line9  path{
+    stroke: rgb(83,58,113);
+    stroke-width:7;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 3s linear forwards;
+    animation-delay: 0s;
+  }
+
+     .line10{
+  width: 100%;
+  min-height: 292px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.line10 div{
+  width: 960px;
+  min-height: 422px;
+  margin:0px auto;
+
+}
+#svg-line10{
+  display: none;
+  height: 100%;
+  min-height: 292px;
+  width: 100%;
+}
+
+#svg-line10  path{
+    stroke: rgb(83,58,113);
+    stroke-width:7;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 3s linear forwards;
+    animation-delay: 0s;
+  }
+
+
+@media screen and (max-width: 450px) {
+
+
+#svg-line6  path{
+    stroke: rgb(83,58,113);
+    stroke-width:3;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 3s linear forwards;
+    animation-delay: 0s;
+  }
+  #svg-line7  path{
+    stroke: rgb(83,58,113);
+    stroke-width:3;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 3s linear forwards;
+    animation-delay: 0s;
+  }
+  #svg-line8  path{
+    stroke: rgb(83,58,113);
+    stroke-width:3;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 3s linear forwards;
+    animation-delay: 0s;
+  }
+
+
+#svg-line10  path{
+    stroke: rgb(83,58,113);
+    stroke-width:3;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 3s linear forwards;
+    animation-delay: 0s;
+  }
+}
+
+
+.line11{
+  width: 100%;
+  min-height: 492px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.line11 div{
+  width: 960px;
+  min-height: 492px;
+  margin:0px auto;
+
+}
+#svg-line11{
+  display: none;
+  height: 100%;
+  min-height: 492px;
+  width: 100%;
+}
+
+#svg-line11  path{
+    stroke: rgb(97,132,216);
+    stroke-width:4;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 2s linear forwards;
+    animation-delay: 0s;
+  }
+
+
+  .line12{
+  width: 100%;
+  min-height: 272px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.line12 div{
+  width: 960px;
+  min-height: 492px;
+  margin:0px auto;
+
+}
+#svg-line12{
+display: none;
+  height: 100%;
+  min-height: 492px;
+  width: 100%;
+}
+
+#svg-line12  path{
+    stroke: rgb(157,236,91);
+    stroke-width:4;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 2s linear forwards;
+    animation-delay: 0s;
+  }
+
+   .line13{
+  width: 100%;
+  min-height: 468px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.line13 div{
+  width: 960px;
+  min-height: 468px;
+  margin:0px auto;
+
+}
+#svg-line13{
+  display: none;
+  height: 100%;
+  min-height: 468px;
+  width: 100%;
+}
+
+#svg-line13  path{
+    stroke: rgb(241,244,101);
+    stroke-width:4;
+    fill:none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: path 2s linear forwards;
+    animation-delay: 0s;
+  }

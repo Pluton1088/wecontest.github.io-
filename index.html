@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   		 <meta charset="utf-8">
+
+     <link href="css/reset.css" rel="stylesheet">
+    	<link href="css/style.css" rel="stylesheet">
+    	<link href="css/lines.css" rel="stylesheet">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+      <link rel= "stylesheet" href= "css/mobile.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+		<script src="js/script.js"></script>
+		<script src="js/slider1.js"></script>
+		<script src="js/timer.js"></script>
+ 
+    <title>Олимпиада по экономике</title>
+
+
+  </head>
+    <body>
+   
+    <div class="main" id="ex1">
+    	<div class="container-main"></div>
+    	<div class="header"></div>
+    	<div id="black"></div>
+
+    		
+
+			<div class="line1">
+				<div>
+					<svg class="svg-line1">
+    					<path d="M2,10 L2,465 L958,465 L958,493 "/>
+					</svg>
+				</div>
+			</div>
+			<div class="container-words">
+				<div>
+					<div id="text-block1"></div>
+					<div id="text-block2"></div>
+					<div id="text-block3"></div>
+					<div id="logo"></div>
+				</div>
+			</div>
+			<div id="menu">
+    			<menu>
+    		<ul>
+  		<li><a href="#ex1">Главная</a></li>
+  		<li><a href="#ex2">Партнеры</a></li>
+  		<li><a href="#ex3">Информация</a></li>
+  		<li><a href="#ex4">Регистрация</a></li>
+  		<li><a href="#ex5">Спикеры</a></li>
+  		<li><a href="#ex6">Загрузки</a></li>
+  		<li><a href="#ex7">О нас</a></li>
+  		<li><a href="#ex8">Контакты</a></li>
+  			</ul>
+				</menu>
+			</div>
+
+
+        <div id="menu-mobile">
+          <menu>
+        <ul>
+        <li><a href="#ex3">Информация</a></li>
+      <li><a href="#ex4">Регистрация</a></li>
+      <li><a href="#ex8">Контакты</a></li>
+        </ul>
+        </menu>
+      </div>
+
+    	</div>
+
+
+
+
+
+
+
+
+    <div class="partners" id="ex2">
+    	<div class="container-partners" >
+    	<div class="partners-background"></div>
+			<div class="line2">
+				<div>
+					<svg id="svg-line2">
+    					<path d="M958,0 L958,465 L2,465 L2,492"/>
+					</svg>
+				</div>
+			</div>
+
+    	<h2>Партнеры</h2>
+
+        <div class="slider">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ol>
+            <li class="active"><i class="fa fa-circle-o"></i></li>
+            <li><i class="fa fa-circle-o"></i></li>
+            <li><i class="fa fa-circle-o"></i></li>
+            <li><i class="fa fa-circle-o"></i></li>
+            <li><i class="fa fa-circle-o"></i></li>
+        </ol>
+        <div class="control">
+            <i class="fa fa-angle-left fa-4x"></i>
+            <i class="fa fa-angle-right fa-4x"></i>
+        </div>
+    </div>
+
+
+     
+    </div>
+    </div>
+
+
+    <div class="information" id="ex3">
+    	<div class="container-information">
+
+    	<div class="information-background"></div>
+			<div class="line11">
+				<div>
+					<svg id="svg-line11">
+    					<path d="M2,0 L2,465 L958,465 L958, 492"/>
+					</svg>
+				</div>
+			</div>
+			<h2>Информация</h2>
+      <div class="text-block">
+        <h3>Senior league</h3>
+        <p>Студенты 2—5 курсов и магистранты специальностей экономического профиля любой формы обучения учреждений высшего образования Республики Беларусь и других стран</p>
+        <p>Индивидуальный зачет: написание эссе на предложенную тему<br>
+           Командный зачет: решение предложенного кейса в области международного бизнеса</p>
+           <p>Дипломы I,II,III степени<br>
+Ценные призы от партнеров олимпиады<br>
+Возможность пройти стажировку/практику</p>
+      </div>
+      <div class="text-block">
+      <h3>Junior league</h3>
+        <p>Ученики 11 классов средних учебных заведений Республики Беларусь</p>
+        <p>Решение кейса (бизнес-задачи) в области международного бизнеса <br>
+        Публичное выступление перед жюри с решением ранее подготовленного кейса </p>
+        <p>Дипломы I,II,III степени<br>
+Ценные призы от партнеров олимпиады<br>
+Возможность на время погрузиться в студенческую жизнь факультета международных отношений и стать «студентом на неделю»</p>
+      </div>
+
+    	</div>
+    </div>
+
+    <div class="registration" id="ex4">
+    	<div class="container-registration">
+    	<div class="registration-background"></div>
+    	<div class="line3">
+				<div>
+					<svg id="svg-line3">
+    					<path d="M958,0 L958,465 L2,465 L2,492"/>
+					</svg>
+				</div>
+			</div>
+    
+    <div class="clik_it"></div>
+   <div><a href="" target="_blank"><button class="btn-cta animated infinite pulse">Регистрация</button></a></div>
+
+    <div id="clock">
+  
+  <div class="block">
+    <span class="digit" id="days"></span>
+    Days
+  </div>
+  
+  <div class="block">
+    <span class="digit" id="hours"></span>
+    Hours
+  </div>
+  
+  <div class="block">
+    <span class="digit" id="minutes"></span>
+    Minutes
+  </div>
+  
+  <div class="block">
+    <span class="digit" id="seconds"></span>
+    Seconds
+  </div>
+
+</div>
+       </div>
+    </div>
+
+
+
+
+
+    
+    <div class="speakers" id="ex5">
+    	<div class="container-speakers">
+
+    	<div class="speakers-background"></div>
+			<div class="line4">
+				<div>
+					<svg id="svg-line4">
+    					<path d="M2,0 L2,465 L958,465 L958, 492"/>
+					</svg>
+				</div>
+			</div>
+			<h2>Спикеры</h2>
+
+
+
+
+
+
+			<div class="block-speakers">
+			<div class="foto">
+				<div class="background1"></div>
+				<div class="foto-speaker"><img src="img/logo.png"/></div>
+				<div class="background2"></div>
+			</div>
+			<div class="speaker-text">
+			<div class="who"><p>20.10 В 19.00Б<br> Сергеевич<br> Павел</p>
+				<div><p>Глава правления<br> Банка Развития<br> Ресублики Беларусь</p></div>
+			</div>
+			<div class="topic">
+			</div>
+			<div class="registration-speaker"><a href="" target="_blank"><button>Регистрация</button></a>
+			</div>
+
+			</div>
+			</div>
+
+    	</div>
+    </div>
+
+
+
+
+
+
+    <div class="download" id="ex6">
+    	<div class="container-download">
+    		<div class="download-background"></div>
+    	<div class="line5">
+				<div>
+					<svg id="svg-line5">
+    					<path d="M958,0 L958,465 L2,465 L2,492"/>
+					</svg>
+				</div>
+			</div>
+			<h2>Загрузки</h2>
+
+			<div class="download-block"><div class="download-draw">
+				<a href=""  target="_blank">
+				<div>
+					<svg id="svg-line6">
+    					<path d="M60,10 L10,10 L10,110 L90, 110 L90,45 L62,14.5 L62,45 L90,45"/>
+    					<path d="M25,65 L70,65" />
+    					<path d="M25,85 L70,85" />
+					</svg>
+				</div>
+				</a>
+				<div class="vertical-text">1 этап</div>
+				<div class="buttom-text">Расписание</div>
+			</div>
+			</div>
+			
+
+			<div class="download-block"><div class="download-draw">
+			<a href="" target="_blank">
+			<div>
+					<svg id="svg-line10">
+    					<path d="M60,10 L10,10 L10,110 L90, 110 L90,45 L62,14.5 L62,45 L90,45"/>
+    					<path d="M25,65 L70,65" />
+    					<path d="M25,85 L70,85" />
+					</svg>
+				</div>
+				</a>
+				<div class="vertical-text">2 этап</div>
+				<div class="buttom-text">Расписание</div>
+			</div></div>
+
+
+			<div class="download-block"><div class="download-draw">
+
+<a href="files/SB.pdf" download>
+			<div>
+					<svg id="svg-line7">
+    					<path d="M60,10 L10,10 L10,110 L90, 110 L90,45 L62,14.5 L62,45 L90,45"/>
+    					<path d="M25,65 L70,65" />
+    					<path d="M25,85 L70,85" />
+					</svg>
+				</div>
+</a>
+				<div class="vertical-text">заочный этап</div>
+				<div class="buttom-text">тест</div>
+				</div>
+				</div>
+
+
+
+			<div class="download-block"><div class="download-draw">
+					<a href="" target="_blank">
+			<div>
+					<svg id="svg-line8">
+    					<path d="M60,10 L10,10 L10,110 L90, 110 L90,45 L62,14.5 L62,45 L90,45"/>
+    					<path d="M25,65 L70,65" />
+    					<path d="M25,85 L70,85" />
+					</svg>
+				</div>
+</a>
+					<div class="vertical-text">очный этап</div>
+				<div class="buttom-text">тест</div>
+				</div></div>
+			
+    	</div>
+    </div>
+
+
+    <div class="about-us" id="ex7">
+    	<div class="container-about-us" >
+    	<div class="about-us-background"></div>
+			<div class="line12">
+				<div>
+					<svg id="svg-line12">
+    					<path d="M2,0 L2,465 L958,465 L958, 492"/>
+					</svg>
+				</div>
+			</div>
+
+    	<h2>О нас</h2>
+
+
+          <div class="block-team">
+            <div id="team">
+                      <div class="ch ch0">
+                        <h2>OUR DREAM TEAM</h2>
+                        <p>Кликните на картинки сбоку, чтобы познакомиться с нами поближе:)</p>
+                      </div>
+                         
+
+
+                         <div class="ch ch4">
+                    <img src="img/Anka.jpg"/>
+                     <h1>Анна Воробей</h1>
+                      <h2>Director</h2>
+                      <p>Languages<br> English, Swedish</p>
+                  </div>
+             
+                    
+             
+                   <div class="ch ch2">
+                    <img src="img/polina.jpg"/>
+                     <h1>Фоменок Алина</h1>
+                      <h2>Maneger</h2>
+                      <p> Languages<br> English, German, Hindi </p>
+                    
+                  </div>
+                
+
+                   <div class="ch ch3">
+                    <img src="img/Nikita.jpg"/>
+                     <h1>Фролов Никита</h1>
+                      <h2>Designer</h2>
+                      <p>Languages<br> English, Spanish</p>
+                  </div>
+
+                 <div class="ch ch1">
+                    <img src="img/Anton.jpg"/>
+                     <h1>Майдан Антон</h1>
+                      <h2>Copy-writer</h2>
+                      <p>Languages<br> English, Franch, German, Hindi, Hebrew</p>
+                  
+                  </div>
+
+                  <div class="ch ch5">
+                    <img src="img/Anji.jpg"/>
+                     <h1>Палагина Анжилика</h1>
+                      <h2>Financial-analist</h2>
+                      <p>Languages<br> English, German</p>
+                  </div>
+
+                   <div class="ch ch6">
+                    <img src="img/Polina.jpg"/>
+                     <h1>Петрикевич Полина</h1>
+                      <h2>Front-end developer</h2>
+                      <p>Languages<br> English, Spanish, Franch</p>
+                  </div>
+
+                   <div class="ch ch7">
+                    <img src="img/Mery.jpg"/>
+                     <h1>Адамян Мэри</h1>
+                      <h2>Party-maker</h2>
+                      <p>Languages<br> English, Spanish</p>
+                  </div>
+                 
+
+
+                </div>
+
+                <div id="min-images">
+                  <span class="a a4"><img src="img/Anka.jpg"/></span>
+                  <span class="a a2"><img src="img/polina.jpg"/></span>
+                  <span class="a a3"><img src="img/Nikita.jpg"/></span>
+                  <span class="a a1"><img src="img/Anton.jpg"/></span>
+                  <span class="a a5"><img src="img/Anji.jpg"/></span>
+                  <span class="a a6"><img src="img/Polina.jpg"/></span>
+                  <span class="a a7"><img src="img/Mery.jpg"/></span>
+                </div>
+              </div>
+
+
+
+    </div>
+    </div>
+
+
+
+
+    <div class="contacts" id="ex8">
+
+    	<div class="container-contacts">
+			<div class="contacts-background"></div>
+			
+    	
+    	</div>
+
+
+   <div id="black-contacts"></div>
+   <div id="black-block">
+   <div class="black-block-container">
+   <h2>Контакты</h2>
+
+
+					<div class="line13">
+						<div>
+							<svg id="svg-line13">
+		    					<path d="M958,0 L958,465 L2,465 L2,400"/>
+							</svg>
+						</div>
+					</div>
+          <section id="contact">
+    <ul class="contact-icons-list">
+
+
+     <a href="https://vk.com/bsuopencompetition" target="_blank" class="contact-icon"> <li>
+        <i class="fa fa-vimeo icon-font"></i></li></a>
+
+     <a href="https://www.facebook.com/bsuopencompetition/" target="_blank" class="contact-icon"> <li>
+       <i class="fa fa-facebook" ></i></li></a>
+    
+      
+      <a href="https://www.instagram.com/bsuopencompetition/" target="_blank" class="contact-icon"><li>
+        <i class="fa fa-linkedin icon-font"></i></li></a>
+     
+   
+      
+      
+     <a href="#" target="_blank" class="contact-icon"> <li>
+        <i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+      
+    
+    </ul>
+    <div class="copyright">&copy; 2017 ALL RIGHTS RESERVED</div>
+
+</section>
+
+	<div id="logo-footer"></div>
+  
+</div>
+
+    	</div>
+</div>
+
+
+
+
+   </body>
+   </html> 
